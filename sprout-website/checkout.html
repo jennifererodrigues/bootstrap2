@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+    <title>SPROUT</title>
+  </head>
+  <body>
+        <div class="container">
+  
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-md fixed-top navbar-light">
+            <a class="navbar-brand" href="index.html">SPROUT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> 
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="shop.html">shop <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog 8.33.02 PM.html">plant care</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact</a>
+                </li>
+              </ul>
+               <a href="checkout.html" class="cart-icon">
+                  <img class="fa fa-shopping-cart" src="images/cart.png"> 
+                  <span class="cart-count"></span>
+                   </a>
+              </div>
+  </nav>
+
+
+  <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <a href="shop.html">
+                    <picture>
+                      <source srcset="images/checkout-header.png" media="(min-width: 768px)">
+                      <source srcset="images/checkout-header2.jpg" media="(min-width: 300px)">
+                      <img srcset="#" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+                    <div class="header-caption text-center">
+                        <div>
+                            <h2 style="color:white;font-size:50px;">CHECKOUT</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+  
+        <main class="page payment-page">
+                <section class="payment-form dark">
+                  <div class="container">
+                    <div class="block-heading">
+                      <h2>Payment</h2>
+                      <p>Guaranteed for 30 days. Simple care instructions included. Expert care help available over email. Tree planted in a US forest for each plant sold.</p>
+                    </div>
+                    <form>
+                      <div class="products">
+                        <h3 class="title">Checkout</h3>
+                        <div class="item">
+                          <span class="price">$499</span>
+                          <p class="item-name">Fiddle Leaf Fig Tree</p>
+                          <p class="item-description">5-6 ft tall - black pot</p>
+                        </div>
+                        <div class="item">
+                          <span class="price">$249</span>
+                          <p class="item-name">Large Snake Plant</p>
+                          <p class="item-description">3 ft tall - blue pot</p>
+                        </div>
+                        <div class="total">Total<span class="price">$748</span></div>
+                      </div>
+                      <div class="card-details">
+                        <h3 class="title">Credit Card Details</h3>
+                        <div class="row">
+                          <div class="form-group col-sm-7">
+                            <label>Card Holder</label>
+                            <input type="text" class="form-control" placeholder="Card Holder" aria-label="Card Holder" aria-describedby="basic-addon1">
+                          </div>
+                          <div class="form-group col-sm-5">
+                            <label for="">Expiration Date</label>
+                            <div class="input-group expiration-date">
+                              <input type="text" class="form-control" placeholder="MM" aria-label="MM" aria-describedby="basic-addon1">
+                              <span class="date-separator">/</span>
+                              <input type="text" class="form-control" placeholder="YY" aria-label="YY" aria-describedby="basic-addon1">
+                            </div>
+                          </div>
+                          <div class="form-group col-sm-8">
+                            <label for="card-number">Card Number</label>
+                            <input type="text" class="form-control" placeholder="Card Number" aria-label="Card Holder" aria-describedby="basic-addon1">
+                          </div>
+                          <div class="form-group col-sm-4">
+                            <label for="cvc">CVC</label>
+                            <input id="cvc" type="text" class="form-control" placeholder="CVC" aria-label="Card Holder" aria-describedby="basic-addon1">
+                          </div>
+                          <div class="form-group col-sm-12">
+                            <button type="button" class="btn btn-primary btn-block">Proceed</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </section>
+              </main>
+
+
+
+ <!--FOOTER-->
+
+ <footer class="page-footer font-small blue pt-4" style="margin-top:3%;">
+    <div class="footer-content text-center text-md-left">
+       <div class="row">
+            <div class="col-12 text-center">
+                <h4>SPROUT</h4>
+           </div>
+       </div>
+   </div>
+   <!-- Copyright -->
+   <div class="footer-copyright text-center" style="padding-bottom: 1rem"><p>© 2018 Copyright:
+     <a href="http://www.jenrodrigues.com/"> Jennifer Rodrigues </a></p>
+   </div>
+   <!-- Copyright -->
+ </footer> <!-- Footer -->
+
+</div> <!--full page container-->
+</body>
+
+    <script>
+        $(document).ready(function(){
+            $('#exampleModal').modal({
+                show:false,
+                backdrop:false
+            });
+            console.log($('Document is now ready.'));
+        });
+
+
+
+</script>
+
+<script>
+$(document).ready(function() {
+
+  /* NAV */
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 56) {
+      $(".navbar").addClass("bg-dark");
+    } else {
+      $(".navbar").removeClass("bg-dark");
+    }
+  });
+  // If Mobile, add background color when toggler is clicked
+  $(".navbar-toggler").click(function() {
+    if (!$(".navbar-collapse").hasClass("show")) {
+      $(".navbar").addClass("bg-dark");
+    } else {
+      if ($(window).scrollTop() < 56) {
+        $(".navbar").removeClass("bg-dark");
+      } else {
+      }
+    }
+  });
+
+});</script>
+
+
+
+</html>
+

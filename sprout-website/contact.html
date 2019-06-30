@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+    <title>SHOP</title>
+  </head>
+  <body>
+    <div class="container">
+
+        <!-- Navigation Bar-->
+  
+       <nav class="navbar navbar-expand-md fixed-top navbar-light">
+        <a class="navbar-brand" href="index.html">SPROUT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> 
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog 8.33.02 PM.html">plant care</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+          </ul>
+          <a href="checkout.html" class="cart-icon">
+              <img class="fa fa-shopping-cart" src="images/cart.png"> 
+              <span class="cart-count"></span>
+               </a>
+        </div>
+      </nav>
+  
+    
+  
+    
+          <!--
+        ####################################################
+        C A R O U S E L
+        ####################################################
+        -->
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <a href="shop.html">
+                        <picture>
+                          <source srcset="images/contact-header.png" media="(min-width: 768px)">
+                          <source srcset="images/contact-header2.jpg" media="(min-width: 300px)">
+                          <img srcset="#" alt="responsive image" class="d-block img-fluid">
+                        </picture>
+                        <div class="header-caption">
+                            <div>
+                                <h2 style="font-size:50px;">Need help decorating?</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <!--
+        ####################################################
+        MAIN CONTENT
+        ####################################################
+        -->
+    
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6">
+        <figure class="figure">
+            <img src="images/contact-img.png" class="figure-img img-fluid rounded" alt="plants">
+            <figcaption class="figure-caption" style="background-color:#dbdbdb;padding:3%;"><h2 style='color:#007b5f;'>Contact Info</h2><p style ="color:#007b5f;">1234 Santa Monica Blvd, Santa Monica<br>310-111-2345<br>info@sprout.com</p></figcaption>
+        </figure>
+    </div><!--col-->
+
+    <div class="col-12 col-md-6">
+                <div class="contact-form">
+                    <h2 id="questionForm">Send us a message!</h2>
+                    <form id="helpForm" >
+                        <div class="form-group">
+                            <label for="inputName" class="form-font">Name</label>
+                            <input type="name" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail" class="form-font">Email Address</label>
+                            <input  class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="textArea" class="form-font">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                            <p id="returnMessage"></p>
+                        </div>
+                        <input id="submitBtn" type="submit" class="btn btn-primary" value="Send">
+                    </form>
+    
+
+    </div>
+    
+
+    </div><!--col-->
+  </div> <!--row-->
+</div> <!--main content container-->
+
+<!--FOOTER-->
+
+<footer class="page-footer font-small blue pt-4" >
+   <div class="footer-content text-center text-md-left">
+      <div class="row">
+           <div class="col-12 text-center">
+               <h4>SPROUT</h4>
+          </div>
+      </div>
+  </div>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center" style="padding-bottom: 1rem"><p>© 2018 Copyright:
+    <a href="http://www.jenrodrigues.com/"> Jennifer Rodrigues </a></p>
+  </div>
+  <!-- Copyright -->
+</footer> <!-- Footer -->
+
+</div> <!--full page container-->
+</body>
+
+
+    <script>
+        $(document).ready(function(){
+            $('#exampleModal').modal({
+                show:false,
+                backdrop:false
+            });
+            console.log($('Document is now ready.'));
+        });
+
+
+
+$('#playButton').click(function () {
+    $('#turrellcarousel').carousel('cycle');
+});
+$('#pauseButton').click(function () {
+    $('#turrellcarousel').carousel('pause');
+});
+
+
+    
+
+</script>
+
+<script>
+$(document).ready(function() {
+  // executes when HTML-Document is loaded and DOM is ready
+
+
+  /*
+  ################
+  Add navbar background color when scrolled
+  */
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 56) {
+      $(".navbar").addClass("bg-dark");
+    } else {
+      $(".navbar").removeClass("bg-dark");
+    }
+  });
+  // If Mobile, add background color when toggler is clicked
+  $(".navbar-toggler").click(function() {
+    if (!$(".navbar-collapse").hasClass("show")) {
+      $(".navbar").addClass("bg-dark");
+    } else {
+      if ($(window).scrollTop() < 56) {
+        $(".navbar").removeClass("bg-dark");
+      } else {
+      }
+    }
+  });
+  // ############
+
+  // document ready
+});</script>
+
+<script>
+  $(document).ready(function(){
+
+          $("input[type=submit]").attr("disabled", "disabled");
+            $('.form-control').blur(function(){
+                    var alertMessage = '<p>Please fill out field.</p>';
+                    if( $(this).val().length === 0 ) {
+                        $(this).parent().append(alertMessage);
+                    }
+                    if( $('#name' && '#email' && '#message').val().length > 0){
+                        $('#submitBtn').removeAttr('disabled');
+                    };
+            });
+    })
+    
+  </script>
+
+
+</html>
+
